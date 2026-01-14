@@ -1,0 +1,13 @@
+{
+  "title": "ETC 账单查询",
+  "config": {
+    "step": {
+      "user": {
+        "title": "绑定 ETC 卡",
+        "data": {
+          "card_no": "ETC 卡号"
+        }
+      }
+    }
+  }
+}
