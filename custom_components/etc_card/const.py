@@ -1,2 +1,3 @@
 DOMAIN = "etc_card"
-CONF_CARD_NO = "card_no"
+PLATFORMS = ["sensor"]
+UPDATE_INTERVAL = 3600  # 1 小时

@@ -3,7 +3,8 @@
   "config": {
     "step": {
       "user": {
-        "title": "绑定 ETC 卡",
+        "title": "添加 ETC 卡",
+        "description": "请输入 ETC 卡号，湖北省内的ETC卡号，42开头",
         "data": {
           "card_no": "ETC 卡号"
         }
