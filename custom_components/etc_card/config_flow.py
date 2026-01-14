@@ -19,3 +19,4 @@ class ETCConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
                 vol.Required("card_no"): str,
             }),
         )
+

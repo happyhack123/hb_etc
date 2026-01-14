@@ -3,7 +3,7 @@
   "name": "ETC 账单查询",
   "version": "1.0.0",
   "config_flow": true,
-  "documentation": "https://github.com/local/etc_card",
   "requirements": ["requests"],
   "iot_class": "cloud_polling"
 }
+

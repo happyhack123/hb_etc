@@ -1,0 +1,9 @@
+{
+  "name": "ETC 账单查询",
+  "content_in_root": false,
+  "domains": ["etc_card"],
+  "country": "CN",
+  "homeassistant": "2024.6.0"
+}
+
+

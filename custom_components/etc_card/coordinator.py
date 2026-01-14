@@ -62,3 +62,5 @@ class ETCCoordinator(DataUpdateCoordinator):
     def _remove_yen(self, data):
         json_str = json.dumps(data, ensure_ascii=False).replace("¥", "")
         return json.loads(json_str)
+
+

@@ -33,7 +33,7 @@ class ETCSensor(CoordinatorEntity, SensorEntity):
     def extra_state_attributes(self):
         if self.key == "black_status":
             return {
-                "color": "red" if "该卡被列入黑名单中" in self.native_value else "green"
+                "color": "green" if "该卡被列入黑名单中" in self.native_value else "red"
             }
         return {}
 
@@ -43,3 +43,4 @@ async def async_setup_entry(hass, entry, async_add_entities):
         ETCSensor(coordinator, key, name)
         for key, name in SENSORS.items()
     )
+
